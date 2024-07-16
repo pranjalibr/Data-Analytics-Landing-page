@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  margin: 3rem 0;
+}
+
+h1 {
+  font-size: 3.7rem;
+  margin: 0.5em 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0.5em 0;
+}
+
+h4 {
+  margin: 0.5em 0;
+}
+
+p {
+  opacity: 60%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0.5em 0;
+}
+
+input {
+  display: block;
+  /* text-align: center; */
+  margin: 1rem auto;
+  width: 90%;
+  padding: 0.5rem 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.two-col {
+  display: grid;
+  align-items: center;
+  gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+ 
+}
+
+.three-col {
+  display: grid;
+  margin-top: 2rem;
+  gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.four-col img {
+  margin: 1rem 2rem;
+}
+
+.six-col {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.header {
+  background-image: linear-gradient(white, hsl(208, 100%, 95%));
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  padding-bottom: 5rem;
+}
+
+.design {
+  background-color: hsl(266, 100%, 97%);
+  color: hsl(265, 64%, 50%);
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3em 0;
+}
+
+.first-design a {
+  color: hsl(265, 64%, 50%);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: white;
+  padding: 0.5em 1.5em;
+  border-radius: 1rem;
+  border-color: hsl(265, 64%, 50%);
+  color: hsl(265, 64%, 50%);
+  margin: 0.5em 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.start-btn {
+  background-color: hsl(265, 64%, 50%);
+  color: white;
+  font-size: 1.2rem;
+}
+
+.two-col img {
+  margin-right: 1rem;
+}
+
+.learn-btn {
+  border: none;
+  font-size: 1.2rem;
+}
+
+.actionable {
+  text-align: center;
+}
+
+.actionable > p {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.main p {
+  font-size: 1rem;
+}
+
+.second-design {
+  margin: 0 auto;
+  width: 20%;
+  gap: 1rem;
+  padding: 0.1em 0;
+}
+
+.third-design {
+  width: 40%;
+}
+
+.fourth-design {
+  width: 50%;
+}
+
+.profile {
+  text-align: center;
+  background-color: hsl(249, 100%, 99%);
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  padding: 8rem 0;
+}
+
+.profile p {
+  opacity: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.profile div {
+  padding: 1rem 0;
+}
+
+.sign-up-section p {
+  text-align: center;
+}
+
+.sign-up-section img {
+  margin: 1rem 0;
+}
+
+.two-logo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.form {
+  border: 1rem solid hsl(266, 100%, 97%);
+  border-top: none;
+  text-align: center;
+  width: 80%;
+}
+
+.last-btn {
+  color: white;
+  background-color: hsl(265, 64%, 50%);
+  width: 90%;
+  border-radius: 0.2rem;
+  margin: 2rem 0;
+}
+
+.main p {
+  font-weight: 500;
+}
+
+.footer {
+ display: flex;
+  padding: 4rem 0;
+  background-color: hsl(225, 100%, 99%);
+
+}
+
+
+
+.footer li {
+  margin-top: 0.5rem;
+}
+
+.footer p {
+  font-size: 1rem;
+  opacity: 100%;
+  font-weight: 500;
+}
+
+.footer img {
+  margin-right: 1rem;
+}
+
+.footer input {
+  border: none;
+}
+
+.footer .input {
+  background-color: white;
+}
